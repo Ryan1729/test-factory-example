@@ -1,0 +1,10 @@
+[package]
+name = "crate_of_b"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+shared = { path = "../shared" }
+crate_of_a = { path = "../crate_of_a" }
